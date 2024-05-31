@@ -24,4 +24,12 @@ public class Email {
     public void setLabel(String label) {
         this.label = label;
     }
+
+    @Override
+    public String toString() {
+        return "Email{" +
+                "email='" + email + '\'' +
+                ", label='" + label + '\'' +
+                '}';
+    }
 }

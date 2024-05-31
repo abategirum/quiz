@@ -24,4 +24,12 @@ public class Phone {
     public void setLabel(String label) {
         this.label = label;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "phoneNo='" + phoneNo + '\'' +
+                ", label='" + label + '\'' +
+                '}';
+    }
 }

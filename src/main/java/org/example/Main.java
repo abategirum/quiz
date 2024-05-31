@@ -44,8 +44,10 @@ public class Main {
         System.out.println("[");
         Arrays.stream(contact).forEach(cont -> {
             System.out.println("{");
-            System.out.println("\"contactName\": " + cont.getFirstName() + "," + "\"lastName\": " + cont.getLastName() + "," + "\"company\": " + cont.getCompany());
+            System.out.println("\"contactName\": " + cont.getFirstName() + "," + "\"lastName\": " + cont.getLastName() + "," + "\"company\": " + cont.getCompany()+ "\"phones\": " + cont.getPhones()+ "\"emails\": " + cont.getEmails());
         });
-        System.out.println("]");
+
     }
+
+
 }
