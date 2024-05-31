@@ -1,0 +1,1 @@
+The system should be able to register user contactsThe user should be able to Add, edit or delete an existing contactThe System should merge any duplicate contacts
